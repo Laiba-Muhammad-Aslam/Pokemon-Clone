@@ -106,7 +106,171 @@
 .main{
     border: 2px solid red;
     margin-top: 30px;
+    width: 100%;
+    margin-bottom: 20px;
 }
 .cards{
-    border: 2px solid green;
+    border: 2px solid rgb(78, 48, 225);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
+/* LEFT CARDS STYLING  */
+
+.left-cards{
+    border: 2px solid yellowgreen;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+}
+.main-card{
+    border: 2px solid orangered;
+    border-radius: 10px;
+}
+.main-card>img{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    border: 2px solid palevioletred;
+    background-color: #30a7d7;
+    padding: 20px;
+    margin-top: -6px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.content>h2{
+    color: #fff;
+    font-size: 22px;
+}
+.content>p{
+    color: #cccccc;
+}
+.sub-card{
+    border: 2px solid olive;
+    display: flex;
+    width: 100%;
+    /* padding: 5px; */
+    margin-top: 10px;
+}
+.card1{
+    width: 50%;
+    margin-right: 15px;
+    border: 2px solid purple;
+    border-radius: 5px;
+}
+.card1>img{
+    width: 100%;
+}
+#card1-content{
+    background-color: #e6bc2f;
+    color: #fff;
+    margin-top: -6px;
+    padding: 20px;
+}
+.card2{
+    width: 50%;
+    /* margin: 10px; */
+    border: 2px solid purple;
+    border-radius: 5px;
+}
+.card2>img{
+    width: 100%;
+}
+#card2-content{
+    background-color: #FF514F;
+    color: #ffff;
+    margin-top: -6px;
+    padding: 20px;
+}
+
+/* RIGHT CARD STYLING */
+
+.right-cards{
+    border: 2px solid #4dad5b;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 15px;
+    /* padding-bottom: 15px; */
+}
+.right-card1{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.right-card1>img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#right-card1-content{
+    /* background-color: #30a7d7; */
+    background-color: #313131;
+    color: #fff;
+    padding: 15px;
+    margin-top: -6px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#right-card1-content>h2{
+    font-size: 22px;
+}
+.right-card2{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.right-card2>img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#right-card2-content{
+    /* background-color: #30a7d7; */
+    background-color: #B38AEA;
+    padding: 15px;
+    margin-top: -6px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#right-card2-content>h2{
+    font-size: 22px;
+    color: #fff;
+}
+#right-card2-content>p{
+    color: #4B1A8E;
+}
+.right-card3{
+    border: 2px solid rebeccapurple;
+    display: flex;
+    width: 100%;
+}
+.right-card3>img{
+    width: 35%;
+}
+#right-card3-content{
+    background-color: #0000EE;
+    padding: 10px;
+    color: #fff;
+}
+#right-card3-content>h2{
+    font-size: 22px;
+}
+
+ /* FEATURED POKEMON   */
+
+ .slider{
+    border: 2px solid black;
+    display: flex;
+    width: 100%;
+ }
+ .slider-images{
+    width: 50%;
+    border: 2px solid green;
+    object-fit: cover;
+ }
+ .slider-images>img{
+    width: 50%;
+ }
