@@ -326,35 +326,106 @@
 /* EXPLORE SECTION  */
 
 .explore-section{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .explore-cards{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     /* align-items: center; */
     justify-content: center;
     width: 80%;
+    cursor: pointer;
 }
 .explore-col-1{
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     width: 30%;
 }
 .exp-card{
     width: 100%;
-    border: 2px solid orchid;
+    /* border: 2px solid orchid; */
     /* margin-right: 40px; */
+    /* margin: 20px 25px 20px 25px; */
+    /* margin-bottom: 20px; */
+    /* border: 2px solid red; */
+    padding: 10px;
 }
 .exp-card>img{
     width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.exp-card-content{
+    background-color: #30a7d7;
+    margin-top: -6px;
+    padding: 15px 15px 20px 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    line-height: 1.3em;
+}
+.exp-card-content>h2{
+    /* border: 2px solid red; */
+    line-height: 1.2em;
+    color: #ffff;
+    margin-bottom: 5px;
 }
 .explore-col-2{
-    border: 2px solid yellowgreen;
+    /* border: 2px solid yellowgreen; */
+    /* width: 30%; */
     width: 30%;
 }
 .explore-col-3{
-    border: 2px solid orangered;
+    /* border: 2px solid orangered; */
+    /* width: 30%; */
     width: 30%;
+}
+#col1-card1{
+    background-color: #4DAD5B;
+}
+#col1-card2{
+    background-color: #EE6B2F;
+    color: #4B1C06;
+}
+.exp-card>h1{
+    /* border: 2px solid red; */
+    color: #919191;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+#col2-card2{
+    background-color: #E6BC2F;
+}
+#col3-card1{
+    background-color: #B38AEA;
+}
+#col3-card1>p{
+    color: #4B1A8E;
+}
+#col3-card2{
+    background-color: #313131;
+}
+#col3-card2{
+    color: #cccccc;
+}
+#col3-card3{
+    /* border: 2px solid yellowgreen; */
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+}
+#col3-card3>h2{
+    background-color: #EE6B2F;
+    color: #ffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    font-weight: 400;
+}
+#col3-card3>p{
+    /* color: #0000EE; */
+    background-color: #30a7d7;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
 }
