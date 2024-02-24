@@ -31,6 +31,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
 }
 .nav-bottom>div{
     display: flex;
@@ -330,6 +334,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 40px;
 }
 .explore-cards{
     /* border: 2px solid green; */
@@ -428,4 +433,172 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 10px;
+}
+
+/* FOOTER SECTION  */
+
+.footer{
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F1F1F;
+    color: #fff;
+    padding: 55px;
+}
+.footer-card{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.footer-row1{
+    /* border: 2px solid orangered; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.footer-col-1{
+    /* border: 2px solid yellowgreen; */
+    width: 50%;
+    padding: 30px;
+}
+.footer-col-1>form{
+    /* border: 2px solid red; */
+    margin-top: 15px;
+}
+.footer-col-1>form>input{
+    width: 100%;
+    height: 45px;
+}
+.footer-col-1>form>input, select{
+    /* border: 2px solid red; */
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.footer-col-1>form>input, select::placeholder{
+    color: #787676;
+    font-weight: bold;
+}
+.footer-col-1>form>select{
+    height: 45px;
+    width: 188px;
+    color: #787676;
+    font-weight: bold;
+}
+.footer-col-1>form>#birthday{
+    /* border: 2px solid purple; */
+    height: 45px;
+    width: 188px;
+    margin-left: 5px;
+}
+.footer-col-1>form>button{
+    padding: 20px;
+    width: 150px;
+    background-color: #888888;
+    color: #ffff;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.footer-col-2{
+    width: 40%;
+    padding: 5px;
+    /* border: 2px solid rgb(215, 16, 106); */
+    padding-top: 30px;
+}
+.footer-col-2>p{
+    margin-bottom: 10px;
+}
+.footer-col-2>label{
+    /* border: 2px solid teal; */
+    /* padding-bottom: 17px; */
+    margin: 8px;
+}
+input.checkbox{
+    /* width: 40px;
+    height: 40px; */
+    transform: scale(1.7);
+    margin-right: 5px;
+}
+.footer-col-2>label>a{
+    color: #ffff;
+    font-weight: 600;
+}
+.footer-row2{
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    width: 100%;
+}
+.footer-r2-col1{
+    /* border: 2px solid green; */
+    width: 35%;
+    padding: 30px 20px 30px 20px;
+    
+}
+.footer-r2-col1>h1{
+    font-size: 20px;
+    /* text-shadow: ; */
+    /* text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue; */
+    /* text-shadow: 1px 1px 2px black 0 0 1em rgb(254, 23, 23), 0 0 0.2em rgb(103, 103, 184); */
+    margin-bottom: 10px;
+}
+.footer-r2-col1>ul>li, .footer-r2-col3>ul>li{
+    list-style: none;
+}
+.footer-r2-col1>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+.footer-r2-col2{
+    /* border: 2px solid green; */
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px 30px 20px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+.footer-r2-col2>i{
+    font-size: 40px;
+    cursor: pointer;
+}
+#facebook{
+    color: #316FF6;
+}
+#youtube{
+    color: #CD201F;
+}
+#twitter{
+    color: #1DA1F2;
+}
+#instagram{
+    color: #E4405F;
+}
+#pinterest{
+    color: #c8232c;
+}
+.footer-r2-col3{
+    /* border: 2px solid green; */
+    width: 35%;
+    padding: 30px 20px 30px 20px;
+}
+.footer-r2-col3>img:hover{
+    cursor: pointer;
+}
+.footer-r2-col3>ul>li{
+    font-size: 12px;
+}
+.footer-r2-col3>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+.footer-r2-col1>ul>li>a:hover, .footer-r2-col3>ul>li>a:hover{
+    text-decoration: underline;
 }
